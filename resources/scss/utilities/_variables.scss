@@ -1,0 +1,51 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+// named color variables
+$primary-color: #777;
+$white: #fff;
+$grey:#ccc;
+$malibu: #51ddfc;
+$viking:#58e1c1;
+
+// functional 
+$error-color: #e4757a;
+$info-color: #927bc1;
+$succes-color: #63cc82;
+$warning-color: #fd7856;
+
+// font stack variables
+$font-stack:'Lato', sans-serif;
+$font-weight-light: 300;
+$font-weight-strong: 700;
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+// theme colors for grid columns
+$col-1: #927bc1;
+$col-2: #fd7856;
+$col-3: #deb2ee;
+$col-4: #7ee6fd;
+$col-5: #88d9a0;
+$col-6: #4da2bb;
+$col-7: #ec9fa3;
+$col-8: #fd9f85;
+$col-9: #e4757a;
+$col-10: #63cc82;
+$col-11: #51ddfc;
+$col-12: #80e8d1;
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+
+/* ============================================= */
+/*            Media Query                        */
+/* ============================================= */
+
+//Create a variable that stores the size of the media query breakpoint
+$mq-wide:(min-width: 768px);
