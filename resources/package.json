@@ -1,0 +1,16 @@
+{
+  "name": "style_guide",
+  "version": "1.0.0",
+  "description": "Conversion of CSS into Sass by splitting the code into several Sass partial files.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "author": "Magdalena Bijelic",
+  "license": "MIT"
+}
