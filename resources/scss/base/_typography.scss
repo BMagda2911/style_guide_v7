@@ -4,7 +4,7 @@
 /* ============================================= */
 
 * {
-    font-family: $font-stack;
+    font-family: $lato-font-stack;
     color: $primary-color;
     box-sizing: border-box;
   }
@@ -25,13 +25,12 @@
   .headline-primary {
     color: $viking;
     margin-left: 10px;
+    &-secondary {
+      font-weight: $font-weight-light;
+      color: $primary-color;
+    }
   }
-  
-  .headline-secondary {
-    font-weight: $font-weight-light;
-    color: $primary-color;
-  }
-  
+ 
   .link {
     color: $malibu;
     font-weight: $font-weight-strong;

@@ -1,0 +1,26 @@
+// Button styling
+@mixin btn-styling {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+// Image styling
+@mixin image-center-styling {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Theme color mapping
+@mixin theme-colors($map) {
+  @each $num-col, $color in $map{
+    &-#{$num-col} {
+    background-color: $color;
+    }
+  }
+}

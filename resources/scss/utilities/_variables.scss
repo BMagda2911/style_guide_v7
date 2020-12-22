@@ -16,7 +16,7 @@ $succes-color: #63cc82;
 $warning-color: #fd7856;
 
 // font stack variables
-$font-stack:'Lato', sans-serif;
+$lato-font-stack:'Lato', sans-serif;
 $font-weight-light: 300;
 $font-weight-strong: 700;
 
@@ -24,7 +24,7 @@ $font-weight-strong: 700;
 /*              Grid System                      */
 /* ============================================= */
 
-// theme colors for grid columns
+/* theme colors for grid columns
 $col-1: #927bc1;
 $col-2: #fd7856;
 $col-3: #deb2ee;
@@ -37,15 +37,27 @@ $col-9: #e4757a;
 $col-10: #63cc82;
 $col-11: #51ddfc;
 $col-12: #80e8d1;
+*/
+$col-colors: (
+    '1':#927bc1,
+    '2':#fd7856,
+    '3':#deb2ee,
+    '4':#7ee6fd,
+    '5':#88d9a0,
+    '6':#4da2bb,
+    '7':#ec9fa3,
+    '8':#fd9f85,
+    '9':#e4757a,
+    '10':#63cc82,
+    '11':#51ddfc,
+    '12':#80e8d1
+);
+
 
 /* ============================================= */
 /*            Media Query                        */
 /* ============================================= */
 
-//Create a variable that stores the size of the media query breakpoint
-$mq-wide:(min-width: 768px);
+// Create a variable that stores the size of the media query breakpoint
 
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-
+$break-m: '(min-width: 768px)';
